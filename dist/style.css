@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../dist/images/forest-with-sunlight-158251.jpg);
+    background-position: 20% 75%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.aimer {
+    opacity: 0.6;
+    width: 800px;
+}
+
+.bullet {
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+
+#stop {
+    padding: 3rem;
+    background: yellow;
+}
+
+#start {
+    padding: 3rem;
+    background: yellow;
+    
+}
+
+.remove {
+    display: none;
+}
+
+.redtarget, .redtarget2, .redtarget3, .redtarget4, .redtarget5, .redtarget6, .redtarget7,.redtarget8,.redtarget9, .redtarget10 {
+    width: 150px;
+}
+
+.redtarget {
+    position: absolute;
+    top: 2px;
+    left: 100px;
+}
+
+
+
+
+
+@keyframes move{
+    0% {
+        transform: translateX(-120);
+    } 
+    100% {
+        transform: translateX(1900px);
+    }
+}

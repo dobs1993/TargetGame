@@ -5,7 +5,7 @@ const bullet = document.querySelector(".bullet");
 const start = document.querySelector("#start");
 const stop = document.querySelector("#stop");
 const aimer = document.querySelector(".aimer");
-const redTarget = document.getElementsByClassName('.remove');
+const redTarget = document.getElementsByClassName('red');
 
 // Stopping the bullet
 window.addEventListener("keydown", stop);
